@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "humanizer-vietnam",
+  "owner": {
+    "name": "elderblack",
+    "url": "https://github.com/elderblack"
+  },
+  "description": "Cài Humanizer tiếng Việt như một plugin Claude.",
+  "plugins": [
+    {
+      "name": "humanizer-vietnam",
+      "source": "./",
+      "description": "Viết lại văn bản tiếng Việt nghe như AI để nó đọc như người thật viết, không đổi nội dung.",
+      "license": "MIT",
+      "keywords": ["writing", "editing", "humanize", "vietnamese", "tieng-viet"]
+    }
+  ]
+}

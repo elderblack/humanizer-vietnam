@@ -1,0 +1,11 @@
+{
+  "name": "humanizer-vietnam",
+  "private": true,
+  "description": "Viết lại văn bản tiếng Việt nghe như AI để nó đọc như người thật viết, không đổi nội dung.",
+  "license": "MIT",
+  "repository": "github:elderblack/humanizer-vietnam",
+  "keywords": ["pi-package"],
+  "pi": {
+    "skills": ["./"]
+  }
+}

@@ -1,0 +1,24 @@
+name: Dấu hiệu mới
+description: Một dấu hiệu văn AI tiếng Việt mà chưa mẫu nào bắt được.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: before
+    attributes:
+      label: Ví dụ
+      description: Đoạn văn thật có dấu hiệu này. Xóa thông tin cá nhân.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: Người thật sẽ viết thế nào
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Vì sao chưa mẫu nào bao được
+      description: Nêu mẫu gần nhất và vì sao nó bỏ sót. Phần lớn dấu hiệu mới gộp được vào mẫu có sẵn.
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Hỏi đáp, ý tưởng, cảm ơn
+    url: https://github.com/elderblack/humanizer-vietnam/discussions
+    about: Hỏi cách dùng, chia sẻ kết quả, hoặc góp ý chung.
+  - name: Công cụ phát hiện AI vẫn bắt được kết quả
+    url: https://github.com/elderblack/humanizer-vietnam#humanizer-tiếng-việt
+    about: Vượt qua công cụ phát hiện AI không phải mục tiêu. Skill này sửa văn cho người đọc.

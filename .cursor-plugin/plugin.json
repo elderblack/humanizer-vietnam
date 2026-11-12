@@ -1,0 +1,12 @@
+{
+  "name": "humanizer-vietnam",
+  "description": "Viết lại văn bản tiếng Việt nghe như AI để nó đọc như người thật viết, không đổi nội dung.",
+  "version": "1.0.0",
+  "author": {
+    "name": "elderblack"
+  },
+  "homepage": "https://github.com/elderblack/humanizer-vietnam",
+  "repository": "https://github.com/elderblack/humanizer-vietnam",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "humanize", "vietnamese", "tieng-viet"]
+}

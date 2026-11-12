@@ -1,0 +1,44 @@
+name: Lỗi viết lại
+description: Bản viết lại còn sót dấu hiệu, đổi nghĩa, thêm hoặc mất thông tin, hoặc sửa quá tay.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Lỗi gì
+      options:
+        - Còn sót dấu hiệu AI
+        - Bản viết lại thêm hoặc mất thông tin
+        - Sửa cả chỗ vốn đã ổn
+        - Giọng hoặc xưng hô bị đổi sai
+        - Khác
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Văn bản đầu vào
+      description: Văn bản bạn đưa vào. Xóa thông tin cá nhân.
+    validations:
+      required: true
+  - type: textarea
+    id: call
+    attributes:
+      label: Cách bạn gọi skill
+      description: Agent, mô hình và câu lệnh chính xác.
+      placeholder: "Claude Code, Opus 5.5: /humanizer-vietnam rồi dán văn bản"
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Kết quả
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Lẽ ra phải thế nào
+      description: Trích câu sai và nói người viết cẩn thận sẽ viết gì. Ghi số mẫu nếu biết.
+    validations:
+      required: true
