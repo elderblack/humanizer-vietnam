@@ -10,7 +10,7 @@
     {
       "name": "humanizer-vietnam",
       "source": "./",
-      "description": "Viết lại văn bản tiếng Việt nghe như AI để nó đọc như người thật viết, không đổi nội dung.",
+      "description": "Sửa văn tiếng Việt có giọng AI cho tự nhiên như người viết, giữ nguyên nội dung.",
       "license": "MIT",
       "keywords": ["writing", "editing", "humanize", "vietnamese", "tieng-viet"]
     }

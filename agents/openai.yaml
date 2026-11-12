@@ -1,4 +1,4 @@
 interface:
   display_name: "Humanizer tiếng Việt"
-  short_description: "Làm văn tiếng Việt do AI viết nghe như người viết"
+  short_description: "Sửa văn tiếng Việt có giọng AI cho tự nhiên như người viết"
   default_prompt: "Dùng $humanizer-vietnam để viết lại đoạn văn này theo giọng của tôi, không đổi sự thật."

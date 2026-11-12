@@ -1,5 +1,11 @@
 # Nhật ký thay đổi
 
+## 1.0.1
+
+- Viết lại phần description cho gọn và bỏ "nó" kiểu văn dịch.
+- Đổi tên §4 từ "Mào đầu" thành "Câu dẫn vòng vo" cho dễ hiểu.
+- Sửa tham chiếu sai ở bước "Soát nháp": in đậm là §24, không phải §28.
+
 ## 1.0.0
 
 Bản phát hành đầu tiên. Chuyển thể từ [Humanizer](https://github.com/blader/humanizer) 4.0.0 sang tiếng Việt.

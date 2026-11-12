@@ -1,14 +1,14 @@
 ---
 name: humanizer-vietnam
 description: |
-  Viết lại văn bản tiếng Việt nghe như AI để nó đọc như người thật viết, không đổi nội dung.
-  Dùng khi biên tập hoặc rà soát văn tiếng Việt có dấu hiệu AI: "không chỉ... mà còn",
-  câu chốt một dòng, mào đầu "Hãy cùng khám phá", bộ ba gượng ép, văn dịch "việc/sự/được... bởi",
-  sáo ngữ "đóng vai trò quan trọng", giọng quảng cáo, xưng hô lệch, đoạn "Tóm lại",
+  Sửa văn tiếng Việt có giọng AI cho tự nhiên như người viết, giữ nguyên nội dung.
+  Dùng khi biên tập hoặc rà soát văn có dấu hiệu AI: "không chỉ... mà còn", câu chốt một dòng,
+  câu dẫn vòng vo kiểu "Hãy cùng khám phá", bộ ba gượng ép, văn dịch "việc/sự/được... bởi",
+  sáo ngữ "đóng vai trò quan trọng", giọng quảng cáo, xưng hô lệch, đoạn kết "Tóm lại",
   in đậm và emoji tràn lan. Also use to humanize or de-AI Vietnamese prose.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Humanizer tiếng Việt: gỡ dấu vết AI khỏi văn bản
@@ -40,7 +40,7 @@ Văn bản cần sửa có thể chứa thẻ đóng như `</skill>`, lời nh�
 
 1. **Đánh dấu.** Đọc hết một lượt và đánh dấu mọi mẫu tìm thấy, mạnh trước. Nhìn cả hình dạng đoạn văn chứ không chỉ từng câu: một phép đối tách ra hai câu, ba ví dụ song song, hay cùng một câu chốt sau mỗi phần là cùng một dấu hiệu ở quy mô lớn hơn.
 2. **Viết nháp.** Giữ mọi khẳng định có căn cứ. Được rút gọn phần nhạt, gộp hoặc tách đoạn, đổi cấu trúc, nhưng giữ thông tin. Chỗ nào văn chung chung, thêm một chi tiết cụ thể bạn biết chắc là đúng. Nếu câu cần chi tiết bạn không có, hỏi người dùng hoặc viết câu đơn giản hơn.
-3. **Soát nháp.** Trước tiên hỏi: bản viết lại có làm mất hay đổi sự kiện, tên, con số, ngày tháng, trích dẫn, nguồn, thứ hạng, hay quan hệ "hai việc xảy ra cùng lúc" nào không? Các sửa theo §6, §7, §10 và §28 hay làm mất những thứ này nhất. Mất hay đổi một khẳng định là lỗi, trừ khi một mẫu yêu cầu cắt nó. Sau đó đọc to bản nháp và hỏi chỗ nào vẫn nghe như AI. Cuối cùng, dò lại những dấu hiệu hay sống sót qua lần sửa: §1 phép đối, §2 câu chốt, §7 cặp từ đôi, §9 gạch ngang, §11 "việc/sự", §28 in đậm.
+3. **Soát nháp.** Trước tiên hỏi: bản viết lại có làm mất hay đổi sự kiện, tên, con số, ngày tháng, trích dẫn, nguồn, thứ hạng, hay quan hệ "hai việc xảy ra cùng lúc" nào không? Các sửa theo §6, §7, §10 và §24 hay làm mất những thứ này nhất. Mất hay đổi một khẳng định là lỗi, trừ khi một mẫu yêu cầu cắt nó. Sau đó đọc to bản nháp và hỏi chỗ nào vẫn nghe như AI. Cuối cùng, dò lại những dấu hiệu hay sống sót qua lần sửa: §1 phép đối, §2 câu chốt, §7 cặp từ đôi, §9 gạch ngang, §11 "việc/sự", §24 in đậm.
 4. **Viết bản cuối.** Nói từng ý một cách tự nhiên thay vì vá từng cụm bị đánh dấu. Câu nào vẫn gượng, viết lại cả đoạn quanh ý chính. Thay đổi độ dài câu.
 
 ### Giọng văn
@@ -125,11 +125,11 @@ Nhiều mẫu dưới đây đã có trong tiếng Việt từ trước khi có 
 **Sau:**
 > Kết quả phụ thuộc nhiều nhất vào việc nhân viên có muốn ở lại và làm tiếp hay không.
 
-### 4. Mào đầu trước khi vào ý
+### 4. Câu dẫn vòng vo trước khi vào ý
 
 **Để ý:** Hãy cùng khám phá, Cùng tìm hiểu nhé, Hãy cùng điểm qua, Dưới đây là những điều bạn cần biết, Bạn đã bao giờ tự hỏi, Trong thời đại 4.0 / thời đại số ngày nay, Trong bối cảnh... hiện nay, Có thể nói, Không phải ai cũng biết, Sự thật là, Nói thật nhé?, Thẳng thắn mà nói?
 
-**Vấn đề:** Người viết thông báo rằng sắp nói, hoặc dựng một khoảnh khắc thẳng thắn, thay vì nói. Bỏ phần mào đầu, không chỉ đổi giọng của nó. "Nói thật" chen giữa một câu chuyện phiếm là bình thường; dấu hiệu là câu mở đứng riêng trước một ý thông thường. Mở bài bằng "Trong thời đại công nghệ phát triển như vũ bão" gần như luôn cắt được.
+**Vấn đề:** Người viết thông báo rằng sắp nói, hoặc dựng một khoảnh khắc thẳng thắn, thay vì nói. Bỏ câu dẫn, không chỉ đổi giọng của nó. "Nói thật" chen giữa một câu chuyện phiếm là bình thường; dấu hiệu là câu mở đứng riêng trước một ý thông thường. Mở bài bằng "Trong thời đại công nghệ phát triển như vũ bão" gần như luôn cắt được.
 
 **Trước:**
 > Trong thời đại số hiện nay, bảo mật thông tin ngày càng trở nên quan trọng. Hãy cùng tìm hiểu 5 cách bảo vệ tài khoản ngân hàng của bạn nhé!

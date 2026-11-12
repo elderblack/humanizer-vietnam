@@ -19,7 +19,7 @@ Gặp một trong năm dấu hiệu này là skill sửa ngay:
 1. **Không phải X mà là Y:** "Đây không chỉ là một chiếc điện thoại, mà là một tuyên ngôn."
 2. **Câu chốt một dòng:** "Và đó chính là điều tạo nên sự khác biệt."
 3. **Câu nói nghe có vẻ sâu sắc:** "Suy cho cùng, điều thực sự quan trọng là..."
-4. **Mào đầu:** "Trong thời đại số hiện nay...", "Hãy cùng khám phá..."
+4. **Câu dẫn vòng vo:** "Trong thời đại số hiện nay...", "Hãy cùng khám phá..."
 5. **Cãi với người không tồn tại:** "Tôi không nói rằng X, nhưng..."
 
 Tổng cộng skill kiểm tra [32 mẫu](#các-32-mẫu).
@@ -130,7 +130,7 @@ Mẫu xếp từ mạnh và phổ biến nhất đến yếu nhất. Năm mẫu 
 | 1 | **Không phải X mà là Y** | "không chỉ là X, mà là Y", "Điều này không có nghĩa là X. Nó có nghĩa là Y." | Nói thẳng ý chính |
 | 2 | **Câu chốt một dòng và câu ngắt kịch tính** | "Và đó chính là chìa khóa."; "Không kế hoạch. Không đường lui." | Cắt câu lặp ý; gộp câu cụt thành một ý cụ thể |
 | 3 | **Câu nói nghe có vẻ sâu sắc** | "Suy cho cùng...", "X là tấm gương phản chiếu Y" | Thay bằng khẳng định cụ thể |
-| 4 | **Mào đầu trước khi vào ý** | "Trong thời đại số hiện nay", "Hãy cùng tìm hiểu nhé!" | Bỏ mào đầu, vào ý luôn |
+| 4 | **Câu dẫn vòng vo trước khi vào ý** | "Trong thời đại số hiện nay", "Hãy cùng tìm hiểu nhé!" | Bỏ câu dẫn, vào ý luôn |
 | 5 | **Cãi với người không tồn tại** | "Tôi không nói rằng...", "Có thể bạn nghĩ... nhưng" | Bỏ phản bác không ai nêu |
 
 ### B. Nhịp theo công thức
